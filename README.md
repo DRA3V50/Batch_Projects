@@ -1,9 +1,39 @@
-# Batch_Projects
-Copy the coding provided for each individual separately, go to your desktop, right-click --> New --> Text Document, enter code in it, save and exit. rename it by removing .txt and replace with .bat then double click it!
+# Batch Projects
 
-(virus.txt ---> can be stoppped by pressing ALT + F4.)
+This folder contains batch scripts and related files. Below are instructions for each project:
 
-(Brute_Force_Password.txt & pass.txt are together.)
+---
 
+## How to Use
 
-*** For the Brute_Force_Password.txt, open the Command Prompt by typing ‘cmd’ into the Windows search bar and run the command `ipconfig` to find your IPv4 address. Next, rename the file named ‘Brute_Force_Password.txt’ to ‘Brute_Force_Password.bat’. Before running this file, open the included ‘pass.txt’ and add your laptop or computer's login PIN somewhere in the list of passwords, then save and close the file. Now, run the `.bat` file. When told, enter your IPv4 address, your exact Windows username, and finally your login PIN. Once you’ve done that, the script will begin trying to brute force your password. ***
+1. Copy the code from each `.txt` file.
+2. On your desktop (or any folder), right-click → New → Text Document.
+3. Paste the code into the new file and save it.
+4. Rename the file extension from `.txt` to `.bat`.
+5. Double-click the `.bat` file to run it.
+
+---
+
+## Notes on Specific Files
+
+- **virus.txt**  
+  This script can be stopped by pressing `ALT + F4`.
+
+- **Brute_Force_Password.txt & pass.txt**  
+  These two files work together.
+
+  ### Instructions for Brute Force Password:
+
+  1. Rename `Brute_Force_Password.txt` to `Brute_Force_Password.bat`.
+  2. Open Command Prompt (`cmd`) and run `ipconfig` to find your IPv4 address.
+  3. Open `pass.txt` and add your computer's login PIN somewhere in the password list. Save and close it.
+  4. Run `Brute_Force_Password.bat`.
+  5. When prompted, enter your IPv4 address, exact Windows username, and your login PIN.
+  6. The script will then try to brute force your password.
+
+---
+
+**WARNING:**  
+Use these scripts responsibly and only on machines and accounts you own. Running brute force scripts can lock you out or cause system issues.
+
+---
