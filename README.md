@@ -1,39 +1,30 @@
-# Batch Projects
-
+**Batch Projects**
 This folder contains batch scripts and related files. Below are instructions for each project:
 
----
+**How to Use:**
 
-## How to Use
+-Locate each .bat file in the folder.
+-Double-click any .bat file to run it.
 
-1. Copy the code from each `.txt` file.
-2. On your desktop (or any folder), right-click → New → Text Document.
-3. Paste the code into the new file and save it.
-4. Rename the file extension from `.txt` to `.bat`.
-5. Double-click the `.bat` file to run it.
+**Notes on Specific Files:**
 
----
+-virus.bat
+-This script continuously opens windows for visual simulation.
+**(You can stop it by pressing ALT + F4.)**
+Brute_Force_Password.bat & pass.bat
+These two files work together to simulate a password brute force attack (for educational purposes only).
 
-## Notes on Specific Files
+**Instructions:**
 
-- **virus.txt**  
-  This script can be stopped by pressing `ALT + F4`.
-
-- **Brute_Force_Password.txt & pass.txt**  
-  These two files work together.
-
-  ### Instructions for Brute Force Password:
-
-  1. Rename `Brute_Force_Password.txt` to `Brute_Force_Password.bat`.
-  2. Open Command Prompt (`cmd`) and run `ipconfig` to find your IPv4 address.
-  3. Open `pass.txt` and add your computer's login PIN somewhere in the password list. Save and close it.
-  4. Run `Brute_Force_Password.bat`.
-  5. When prompted, enter your IPv4 address, exact Windows username, and your login PIN.
-  6. The script will then try to brute force your password.
-
----
-
-**WARNING:**  
-Use these scripts responsibly and only on machines and accounts you own. Running brute force scripts can lock you out or cause system issues.
-
----
+I.) Open Command Prompt and run ipconfig to find your IPv4 address.
+II.) Open pass.bat and add your actual Windows login PIN to the list. Save the file.
+III.) Double-click Brute_Force_Password.bat.
+IV.) When prompted:
+V.) Enter your IPv4 address.
+VI.) Enter your exact Windows username.
+VII.) Enter your login PIN (for simulation).
+The script will attempt to brute force your login using the data in pass.bat.
+-----
+**## WARNING ##**
+Use these scripts responsibly and only on machines/accounts you own.
+Running brute force scripts may cause system issues or lockouts if misused.
