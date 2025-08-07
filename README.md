@@ -17,12 +17,19 @@ These two files work together to simulate a password brute force attack (for edu
 **Instructions:**
 
 I.) Open Command Prompt and run ipconfig to find your IPv4 address.
+
 II.) Open pass.bat and add your actual Windows login PIN to the list. Save the file.
+
 III.) Double-click Brute_Force_Password.bat.
+
 IV.) When prompted:
-V.) Enter your IPv4 address.
-VI.) Enter your exact Windows username.
-VII.) Enter your login PIN (for simulation).
+
+- Enter your IPv4 address.
+  
+V.) Enter your exact Windows username.
+
+VI.) Enter your login PIN (for simulation).
+
 The script will attempt to brute force your login using the data in pass.bat.
 -----
 **## WARNING ##**
