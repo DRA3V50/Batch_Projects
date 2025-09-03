@@ -9,10 +9,12 @@ This folder contains batch scripts and related files. Below are instructions for
 **Notes on Specific Files:**
 
 -virus.bat
+
 This script continuously opens windows for visual simulation.
 **(You can stop it by pressing ALT + F4.)**
 
 -Brute_Force_Password.bat & pass.bat
+
 These two files work together to simulate a password brute force attack (for educational purposes only).
 
 **Instructions:**
