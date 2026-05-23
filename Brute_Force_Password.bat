@@ -49,4 +49,3 @@ echo === FAILED ===                    :: Indicate no password matched
 echo No matching password found after !count! attempts.  :: Show total attempts made
 pause                                :: Pause so user can read the message
 exit /b                             :: Exit script
-
